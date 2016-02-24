@@ -1,4 +1,4 @@
-libname syndrom 'G:\Infect Prevention\IS01_groups\My Documents\IPC Surveillance Data\Respiratory Syndromic Surveillance';
+libname syndrom 'G:\Infect Prevention\IS01_groups\My Documents\IPC Surveillance Data\Respiratory Syndromic Surveillance';**testing
 libname shad odbc DSN= 'EPSi_Shadow' schema = dbo; * SQL server;  /*EPSi shadow database, windows authentication*/
 libname pdadev oracle user='pda_read' password=pdaread path='findwdev' schema=SCPM;  **Patient Day Array Development;
 libname pda oracle user='pda_user' password=pdauser path='findwprd' schema=SCPM;  **Patient Day Array Production NEW;
